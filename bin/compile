@@ -1,3 +1,7 @@
 #!/bin/sh
 
+echo 'creating symlink for ca_file'
+
+ln -s /etc/ssl/certs/ca-certificates.crt /usr/lib/ssl/cert.pem
+
 exit 0
