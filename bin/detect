@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo 'openssl symlink'
+
+exit 0
